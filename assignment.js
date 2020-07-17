@@ -5,3 +5,15 @@ function feetToMile(feet){
 }
 var mile=feetToMile(8000);
 console.log(mile);
+
+
+//woodCalculator
+function woodCalculator(chair,table,khat){
+    var chairCount=chair*1;
+    var tableCount=table*1;
+    var khatCount=khat*1;
+    var totalCount=chairCount+tableCount+khatCount;
+    return totalCount;
+}
+var woodResult=woodCalculator(1,3,5);
+console.log(woodResult);
