@@ -18,16 +18,17 @@ function woodCalculator(chair,table,khat){
 var woodResult=woodCalculator(1,3,5);
 console.log(woodResult);
 
+
 //tinyFriend
-function tinyFriend(age){
-    var min=age[0];
-    for(var i=0;i<age.length;i++){
-        var element=age[i];
+function tinyFriend(name){
+    var min=name[0];
+    for(var i=0;i<name.length;i++){
+        var element=name[i];
         if(element<min){
             min=element;
         }
     }
     return min;
 }
-var min=tinyFriend([12,13,15,77,88,99]);
+var min=tinyFriend(['Nihi','Niva','samiha','sajmin','Ranjana']);
 console.log(min);
